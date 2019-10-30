@@ -1,8 +1,14 @@
-$rgName = "batch"
-$stgAcctName = "laaz203batchsa"
+$rgName = "poc-az203"
+$stgAcctName = "pocaz203batchsa"
 $location = "westus"
-$batchAcctName = "laaz203batchacct"
+$batchAcctName = "pocaz203batchacct"
 $poolName = "myPool"
+
+az login
+
+az group create `
+  -l $location `
+  -n $rgName
 
 az group create `
  -l $location `

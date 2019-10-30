@@ -1,4 +1,4 @@
-$rg = "aksdemos"
+$rg = "poc-az203"
 $cluster = "akscluster"
 
 az group create -n $rg `

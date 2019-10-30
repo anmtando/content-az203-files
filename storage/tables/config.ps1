@@ -1,6 +1,6 @@
-$rg = "tables"
+$rg = "poc-az203"
 $location = "westus"
-$acct = "laaz203tables"
+$acct = "pocaz203batchsa"
 
 az group create -n $rg -l $location
 
